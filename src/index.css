@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .slick-slider {
+  width: 300px;
+  display: flex;
+} */
+.slick-track {
+  width: max-content !important;
+}
+
+.slick-slide {
+  margin: 16px;
+}
+
+/* .slick-slide.slick-active {
+  opacity: 0.6;
+}
+
+.slick-slide.slick-active.slick-current {
+  opacity: 1;
+} */
+
+.slick-arrow {
+  display: none !important;
+}
