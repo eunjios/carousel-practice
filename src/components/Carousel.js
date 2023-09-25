@@ -1,14 +1,36 @@
+/** @jsxImportSource @emotion/react */
 import React from "react";
 import Slider from "react-slick";
-import ItemCard from "./ItemCard";
+import ImageCard from "./ImageCard";
+import { css } from "@emotion/react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styled from "@emotion/styled";
+import { BsPlus } from "react-icons/bs";
+import { icon } from "../UI/style/styles";
 
-const Wrapper = styled.div`
-  width: 100%;
-  padding: 32px 0 32px 32px;
+
+const container = css`
+  padding: 0;
+  margin-left: 24px;
   box-sizing: border-box;
+`;
+
+const plus = css`
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+  padding: 0 4px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-size: 40px;
+  background: #F4F4F4;
+  color: #FFF;
+  cursor: pointer;
+
+  :hover {
+    opacity: 0.8;
+  }
 `;
 
 const Carousel = props => {
@@ -21,18 +43,19 @@ const Carousel = props => {
     rows: 1,
   };
   return (
-    <Wrapper>
-      <h2>Test</h2>
+    <div css={container}>
       <Slider {...settings}>
         {props.data.map(item => (
-          <ItemCard 
+          <ImageCard 
             key={item.id}
-            title={item.id}
-            background={item.color}
+            img={item.img}
           />
         ))}
+        <div css={plus}>
+          <BsPlus css={icon} />
+        </div>
       </Slider>
-    </Wrapper>
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ import { css } from "@emotion/react";
 import { card, center, rectangle } from "./style/styles";
 
 
-const Card = props => {
+const RectangleCard = props => {
   const changedBackgroundCard = css`
     ${card}
     background: ${props.background}
@@ -16,4 +16,4 @@ const Card = props => {
   );
 };
 
-export default Card;
+export default RectangleCard;

@@ -1,12 +1,16 @@
-import Background from "./UI/Background";
+import Backdrop from "./UI/Backdrop";
 import Carousel from "./components/Carousel";
-import data from "./store/data";
+import ContentsList from "./components/ContentsList";
+import Header from "./components/Header";
+import { imgData } from "./store/data";
 
 function App() {
   return (
-    <Background>
-      <Carousel data={data} />
-    </Background>
+    <Backdrop>
+      <Header />
+      <ContentsList />
+      <Carousel data={imgData} />
+    </Backdrop>
   );
 }
 
