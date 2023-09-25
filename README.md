@@ -5,25 +5,22 @@
 ![CSS](https://img.shields.io/badge/👩‍🎤%20Emotion-424242?style=flat-square)
 
 
-
 ## About
 
-> 부드럽게 넘어가는 **슬라이더**를 구현하는 프로젝트입니다.
+> 부드럽게 넘어가는 **슬라이더**를 연습해보는 프로젝트입니다.
 
-<img src="https://github.com/eunjios/carousel-practice/assets/77034159/928a5fd7-77de-4139-b35d-8d2be33e74a9" alt="preview" width="320"/>
+https://github.com/eunjios/carousel-practice/assets/77034159/e11218c1-c2f5-4722-b1d5-0670dac94b17
 
 
 ### Goals
 
-시작은 슬라이더였으나 다음과 같은 목표를 가지고 진행 중입니다.
-
-1. 슬라이더 구현
+1. 라이브러리 사용하여 슬라이더 구현
 2. Emotion 라이브러리 사용 및 공부
 3. 스타일링과 렌더링 로직 적절히 분리
 4. 재사용성을 고려한 코드
 
+
 ### Built with
-다음 언어 및 라이브러리를 사용하여 구현하였습니다.
 
 - React
 - JavaScript
@@ -32,7 +29,9 @@
 - React Icons
 - NPM
 
-### Todos
+<br>
+
+## Todos
 
 - [ ] 유저 프로필 컴포넌트 구현
 - [ ] 버튼 이벤트 기능 구현
@@ -42,14 +41,20 @@
 - [ ] 리팩토링 필요한 부분 고민해보기
 
 
+<br>
+
 ## Troubleshooting
 - [Emotion css Prop 적용 안 되는 문제](https://velog.io/@eunjios/Emotion-css-Prop-%EC%A0%81%EC%9A%A9-%EC%95%88-%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C)
 
+
+<br>
 
 ## References
 - [Emotion Library Docs](https://emotion.sh/docs/introduction)
 - [React Slick Docs](https://react-slick.neostack.com/docs/get-started)
 - [React Slick Example (CodeSandbox)](https://codesandbox.io/s/zzloxr09mp)
+
+<br>
 
 <hr>
 
