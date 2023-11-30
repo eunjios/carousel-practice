@@ -31,18 +31,6 @@ https://github.com/eunjios/carousel-practice/assets/77034159/e11218c1-c2f5-4722-
 
 <br>
 
-## Todos
-
-- [ ] 유저 프로필 컴포넌트 구현
-- [ ] 버튼 이벤트 기능 구현
-- [ ] 슬라이더 마지막 요소 스타일 개선
-- [ ] 미디어 쿼리 사용
-- [ ] 슬라이더 미디어 쿼리 사용
-- [ ] 리팩토링 필요한 부분 고민해보기
-
-
-<br>
-
 ## Troubleshooting
 - [Emotion css Prop 적용 안 되는 문제](https://velog.io/@eunjios/Emotion-css-Prop-%EC%A0%81%EC%9A%A9-%EC%95%88-%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C)
 
